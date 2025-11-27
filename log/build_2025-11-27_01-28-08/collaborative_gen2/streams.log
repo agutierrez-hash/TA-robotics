@@ -1,0 +1,26 @@
+[0.055s] Invoking command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jandro/ros2_gen2_ws/build/collaborative_gen2 -- -j4 -l4
+[0.161s] [ 33%] Built target server_node
+[0.210s] [ 66%] Built target client_b
+[0.249s] [100%] Built target client_a
+[0.288s] Invoked command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jandro/ros2_gen2_ws/build/collaborative_gen2 -- -j4 -l4
+[0.289s] Invoking command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jandro/ros2_gen2_ws/build/collaborative_gen2
+[0.298s] -- Install configuration: ""
+[0.299s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/server_node
+[0.299s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_a
+[0.299s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_b
+[0.300s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/package_run_dependencies/collaborative_gen2
+[0.300s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/parent_prefix_path/collaborative_gen2
+[0.301s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.sh
+[0.301s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.dsv
+[0.301s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.sh
+[0.301s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.dsv
+[0.301s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.bash
+[0.301s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.sh
+[0.301s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.zsh
+[0.301s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.dsv
+[0.301s] -- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.dsv
+[0.302s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/packages/collaborative_gen2
+[0.302s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config.cmake
+[0.302s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config-version.cmake
+[0.302s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.xml
+[0.306s] Invoked command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jandro/ros2_gen2_ws/build/collaborative_gen2

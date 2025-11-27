@@ -1,0 +1,30 @@
+[0.057s] Invoking command in '/home/jandro/ros2_gen2_ws/build/kinova_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jandro/ros2_gen2_ws/src/kinova_description -DCMAKE_INSTALL_PREFIX=/home/jandro/ros2_gen2_ws/install/kinova_description
+[1.575s] -- The C compiler identification is GNU 13.3.0
+[2.261s] -- The CXX compiler identification is GNU 13.3.0
+[2.325s] -- Detecting C compiler ABI info
+[2.547s] -- Detecting C compiler ABI info - done
+[2.556s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.557s] -- Detecting C compile features
+[2.558s] -- Detecting C compile features - done
+[2.570s] -- Detecting CXX compiler ABI info
+[2.733s] -- Detecting CXX compiler ABI info - done
+[2.742s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.742s] -- Detecting CXX compile features
+[2.743s] -- Detecting CXX compile features - done
+[3.472s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.672s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.070s] -- Configuring done (4.0s)
+[4.073s] -- Generating done (0.0s)
+[4.074s] -- Build files have been written to: /home/jandro/ros2_gen2_ws/build/kinova_description
+[4.079s] Invoked command in '/home/jandro/ros2_gen2_ws/build/kinova_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jandro/ros2_gen2_ws/src/kinova_description -DCMAKE_INSTALL_PREFIX=/home/jandro/ros2_gen2_ws/install/kinova_description
+[4.081s] Invoking command in '/home/jandro/ros2_gen2_ws/build/kinova_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jandro/ros2_gen2_ws/build/kinova_description -- -j4 -l4
+[4.123s] Invoked command in '/home/jandro/ros2_gen2_ws/build/kinova_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jandro/ros2_gen2_ws/build/kinova_description -- -j4 -l4
+[4.134s] Invoking command in '/home/jandro/ros2_gen2_ws/build/kinova_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jandro/ros2_gen2_ws/build/kinova_description
+[4.143s] -- Install configuration: ""
+[4.143s] [31mCMake Error at cmake_install.cmake:46 (file):
+[4.143s]   file INSTALL cannot find
+[4.143s]   "/home/jandro/ros2_gen2_ws/src/kinova_description/launch": No such file or
+[4.143s]   directory.
+[4.143s] 
+[4.143s] [0m
+[4.144s] Invoked command in '/home/jandro/ros2_gen2_ws/build/kinova_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jandro/ros2_gen2_ws/build/kinova_description

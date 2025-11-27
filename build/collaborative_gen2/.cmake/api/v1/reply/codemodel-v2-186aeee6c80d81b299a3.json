@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5857184f66b519fad1cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "collaborative_gen2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "client_a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_a-6a0964eca5f3a4851690.json",
+					"name" : "client_a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client_b::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_b-9fd24244c99559c04045.json",
+					"name" : "client_b",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "collaborative_gen2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-collaborative_gen2_uninstall-60e858e8599494bd01c5.json",
+					"name" : "collaborative_gen2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server_node-3ae8697390f2be2a8d82.json",
+					"name" : "server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e2726caa3c84b036b67f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jandro/ros2_gen2_ws/build/collaborative_gen2",
+		"source" : "/home/jandro/ros2_gen2_ws/src/collaborative_gen2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

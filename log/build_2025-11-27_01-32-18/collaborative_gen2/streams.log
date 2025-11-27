@@ -1,0 +1,50 @@
+[0.019s] Invoking command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jandro/ros2_gen2_ws/build/collaborative_gen2 -- -j4 -l4
+[0.482s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.077s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.307s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.334s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.637s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.647s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.920s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.123s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[2.282s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[2.833s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.058s] -- Found parameter_traits: 0.5.0 (/home/jandro/workspace/ros2_kortex_ws/install/parameter_traits/share/parameter_traits/cmake)
+[3.118s] -- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[3.199s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[3.364s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.808s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[3.904s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[3.956s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[4.206s] -- Configuring done (4.1s)
+[4.494s] -- Generating done (0.2s)
+[4.507s] -- Build files have been written to: /home/jandro/ros2_gen2_ws/build/collaborative_gen2
+[4.610s] [ 33%] Built target server_node
+[4.655s] [ 66%] Built target client_b
+[4.702s] [100%] Built target client_a
+[4.720s] Invoked command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jandro/ros2_gen2_ws/build/collaborative_gen2 -- -j4 -l4
+[4.737s] Invoking command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jandro/ros2_gen2_ws/build/collaborative_gen2
+[4.750s] -- Install configuration: ""
+[4.750s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/server_node
+[4.751s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_a
+[4.751s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_b
+[4.751s] -- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/launch
+[4.751s] -- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/launch/server.launch.py
+[4.752s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/package_run_dependencies/collaborative_gen2
+[4.752s] -- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/parent_prefix_path/collaborative_gen2
+[4.752s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.sh
+[4.752s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.dsv
+[4.752s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.sh
+[4.752s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.dsv
+[4.752s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.bash
+[4.752s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.sh
+[4.752s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.zsh
+[4.753s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.dsv
+[4.753s] -- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.dsv
+[4.753s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/packages/collaborative_gen2
+[4.753s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config.cmake
+[4.753s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config-version.cmake
+[4.753s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.xml
+[4.754s] Invoked command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jandro/ros2_gen2_ws/build/collaborative_gen2

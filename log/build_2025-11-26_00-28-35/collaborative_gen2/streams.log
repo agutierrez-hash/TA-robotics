@@ -1,0 +1,34 @@
+[0.031s] Invoking command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jandro/ros2_gen2_ws/build/collaborative_gen2 -- -j4 -l4
+[1.477s] [ 16%] [32mBuilding CXX object CMakeFiles/server_node.dir/src/central_server.cpp.o[0m
+[1.616s] [ 83%] Built target client_b
+[1.616s] [ 83%] Built target client_a
+[8.401s] In file included from [01m[K/home/jandro/ros2_gen2_ws/src/collaborative_gen2/src/central_server.cpp:2[m[K:
+[8.401s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[8.401s]    51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[8.401s]       |                                                                       [01;36m[K^[m[K
+[8.401s] 
+[19.700s] [100%] [32m[1mLinking CXX executable server_node[0m
+[23.929s] [100%] Built target server_node
+[23.939s] Invoked command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jandro/ros2_gen2_ws/build/collaborative_gen2 -- -j4 -l4
+[24.010s] Invoking command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jandro/ros2_gen2_ws/build/collaborative_gen2
+[24.025s] -- Install configuration: ""
+[24.112s] -- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/server_node
+[24.118s] -- Set non-toolchain portion of runtime path of "/home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/server_node" to ""
+[24.146s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_a
+[24.198s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_b
+[24.204s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/package_run_dependencies/collaborative_gen2
+[24.204s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/parent_prefix_path/collaborative_gen2
+[24.204s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.sh
+[24.205s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.dsv
+[24.205s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.sh
+[24.205s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.dsv
+[24.205s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.bash
+[24.205s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.sh
+[24.205s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.zsh
+[24.205s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.dsv
+[24.205s] -- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.dsv
+[24.227s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/packages/collaborative_gen2
+[24.227s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config.cmake
+[24.227s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config-version.cmake
+[24.227s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.xml
+[24.229s] Invoked command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jandro/ros2_gen2_ws/build/collaborative_gen2

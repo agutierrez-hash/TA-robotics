@@ -1,0 +1,474 @@
+[0.000000] (-) TimerEvent: {}
+[0.000624] (-) JobUnselected: {'identifier': 'gen2_moveit_config'}
+[0.000667] (-) JobUnselected: {'identifier': 'kinova_description'}
+[0.000689] (collaborative_gen2) JobQueued: {'identifier': 'collaborative_gen2', 'dependencies': OrderedDict()}
+[0.000747] (collaborative_gen2) JobStarted: {'identifier': 'collaborative_gen2'}
+[0.015685] (collaborative_gen2) JobProgress: {'identifier': 'collaborative_gen2', 'progress': 'cmake'}
+[0.016124] (collaborative_gen2) Command: {'cmd': ['/usr/bin/cmake', '/home/jandro/ros2_gen2_ws/src/collaborative_gen2', '-DCMAKE_INSTALL_PREFIX=/home/jandro/ros2_gen2_ws/install/collaborative_gen2'], 'cwd': '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim_demos/share', 'USER': 'jandro', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/velocity_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_steering_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/transmission_interface/lib:/home/jandro/workspace/ros2_kortex_ws/install/bicycle_steering_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/ackermann_steering_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/steering_controllers_library/lib:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_driver/lib:/home/jandro/workspace/ros2_kortex_ws/install/serial/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_test_assets/lib:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control/lib:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/range_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/position_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/pose_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/pid_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/picknik_twist_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/picknik_reset_fault_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/parallel_gripper_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/omni_wheel_drive_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/joint_trajectory_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/joint_state_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/imu_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/gripper_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/gps_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/gpio_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example_external/lib:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example/lib:/home/jandro/workspace/ros2_kortex_ws/install/effort_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/forward_command_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/force_torque_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/diff_drive_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager/lib:/home/jandro/workspace/ros2_kortex_ws/install/admittance_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/control_toolbox/lib:/home/jandro/workspace/ros2_kortex_ws/install/parameter_traits/lib:/home/jandro/workspace/ros2_kortex_ws/install/mecanum_drive_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/kortex_driver/lib:/home/jandro/workspace/ros2_kortex_ws/install/chained_filter_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/controller_interface/lib:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface/lib:/home/jandro/workspace/ros2_kortex_ws/install/joint_limits/lib:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jandro', 'OLDPWD': '/home/jandro/ros2_gen2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3345', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/jandro/workspace/ros2_kortex_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jandro', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jandro', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jandrox:@/tmp/.ICE-unix/3302,unix/jandrox:/tmp/.ICE-unix/3302', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c70c0999_fc76_4da0_bdcd_88390c8ec1a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.155', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/kortex_bringup:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_lite_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kortex_description:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_description:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_demos:/home/jandro/workspace/ros2_kortex_ws/install/velocity_controllers:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_controller:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/transmission_interface:/home/jandro/workspace/ros2_kortex_ws/install/test_ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/bicycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/ackermann_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/steering_controllers_library:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_hardware_tests:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_driver:/home/jandro/workspace/ros2_kortex_ws/install/serial:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim_demos:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_image:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_cmake:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_controllers:/home/jandro/workspace/ros2_kortex_ws/install/range_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/position_controllers:/home/jandro/workspace/ros2_kortex_ws/install/pose_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/pid_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_twist_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_reset_fault_controller:/home/jandro/workspace/ros2_kortex_ws/install/parallel_gripper_controller:/home/jandro/workspace/ros2_kortex_ws/install/omni_wheel_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_state_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/imu_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gripper_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gps_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gpio_controllers:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example_external:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example:/home/jandro/workspace/ros2_kortex_ws/install/effort_controllers:/home/jandro/workspace/ros2_kortex_ws/install/forward_command_controller:/home/jandro/workspace/ros2_kortex_ws/install/force_torque_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/diff_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/admittance_controller:/home/jandro/workspace/ros2_kortex_ws/install/control_toolbox:/home/jandro/workspace/ros2_kortex_ws/install/cmake_generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library:/home/jandro/workspace/ros2_kortex_ws/install/parameter_traits:/home/jandro/workspace/ros2_kortex_ws/install/mecanum_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/kortex_driver:/home/jandro/workspace/ros2_kortex_ws/install/kortex_api:/home/jandro/workspace/ros2_kortex_ws/install/chained_filter_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_interface:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface:/home/jandro/workspace/ros2_kortex_ws/install/joint_limits:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_tests:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/kortex_bringup:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_lite_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kortex_description:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_description:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_demos:/home/jandro/workspace/ros2_kortex_ws/install/velocity_controllers:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_controller:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/transmission_interface:/home/jandro/workspace/ros2_kortex_ws/install/test_ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/bicycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/ackermann_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/steering_controllers_library:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_hardware_tests:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_driver:/home/jandro/workspace/ros2_kortex_ws/install/serial:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim_demos:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_image:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_cmake:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_controllers:/home/jandro/workspace/ros2_kortex_ws/install/range_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/position_controllers:/home/jandro/workspace/ros2_kortex_ws/install/pose_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/pid_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_twist_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_reset_fault_controller:/home/jandro/workspace/ros2_kortex_ws/install/parallel_gripper_controller:/home/jandro/workspace/ros2_kortex_ws/install/omni_wheel_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_state_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/imu_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gripper_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gps_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gpio_controllers:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example_external:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example:/home/jandro/workspace/ros2_kortex_ws/install/effort_controllers:/home/jandro/workspace/ros2_kortex_ws/install/forward_command_controller:/home/jandro/workspace/ros2_kortex_ws/install/force_torque_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/diff_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/admittance_controller:/home/jandro/workspace/ros2_kortex_ws/install/control_toolbox:/home/jandro/workspace/ros2_kortex_ws/install/cmake_generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library:/home/jandro/workspace/ros2_kortex_ws/install/parameter_traits:/home/jandro/workspace/ros2_kortex_ws/install/mecanum_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/kortex_driver:/home/jandro/workspace/ros2_kortex_ws/install/kortex_api:/home/jandro/workspace/ros2_kortex_ws/install/chained_filter_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_interface:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface:/home/jandro/workspace/ros2_kortex_ws/install/joint_limits:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_tests:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/opt/ros/jazzy'}), 'shell': False}
+[0.089783] (collaborative_gen2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099695] (-) TimerEvent: {}
+[0.152260] (collaborative_gen2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.172148] (collaborative_gen2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199823] (-) TimerEvent: {}
+[0.288695] (collaborative_gen2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.298403] (collaborative_gen2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.298577] (collaborative_gen2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.298971] (collaborative_gen2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.299890] (-) TimerEvent: {}
+[0.310101] (collaborative_gen2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399987] (-) TimerEvent: {}
+[0.442933] (collaborative_gen2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.452403] (collaborative_gen2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.452673] (collaborative_gen2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.453070] (collaborative_gen2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.466658] (collaborative_gen2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500075] (-) TimerEvent: {}
+[0.600292] (-) TimerEvent: {}
+[0.700528] (-) TimerEvent: {}
+[0.727492] (collaborative_gen2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.800623] (-) TimerEvent: {}
+[0.900907] (-) TimerEvent: {}
+[0.993955] (collaborative_gen2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.000956] (-) TimerEvent: {}
+[1.101171] (-) TimerEvent: {}
+[1.201405] (-) TimerEvent: {}
+[1.301621] (-) TimerEvent: {}
+[1.400249] (collaborative_gen2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.401683] (-) TimerEvent: {}
+[1.466493] (collaborative_gen2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.501805] (-) TimerEvent: {}
+[1.548943] (collaborative_gen2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.601909] (-) TimerEvent: {}
+[1.620279] (collaborative_gen2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.702019] (-) TimerEvent: {}
+[1.802231] (-) TimerEvent: {}
+[1.902541] (-) TimerEvent: {}
+[2.002763] (-) TimerEvent: {}
+[2.018808] (collaborative_gen2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.046550] (collaborative_gen2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.102959] (-) TimerEvent: {}
+[2.203243] (-) TimerEvent: {}
+[2.303635] (-) TimerEvent: {}
+[2.403948] (-) TimerEvent: {}
+[2.504252] (-) TimerEvent: {}
+[2.601371] (collaborative_gen2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.604330] (-) TimerEvent: {}
+[2.682878] (collaborative_gen2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.704409] (-) TimerEvent: {}
+[2.715296] (collaborative_gen2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.804522] (-) TimerEvent: {}
+[2.904732] (-) TimerEvent: {}
+[2.957719] (collaborative_gen2) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)\n'}
+[3.004825] (-) TimerEvent: {}
+[3.105060] (-) TimerEvent: {}
+[3.205298] (-) TimerEvent: {}
+[3.305555] (-) TimerEvent: {}
+[3.405867] (-) TimerEvent: {}
+[3.506087] (-) TimerEvent: {}
+[3.521824] (collaborative_gen2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread \n'}
+[3.606201] (-) TimerEvent: {}
+[3.706422] (-) TimerEvent: {}
+[3.806705] (-) TimerEvent: {}
+[3.907004] (-) TimerEvent: {}
+[4.007252] (-) TimerEvent: {}
+[4.107490] (-) TimerEvent: {}
+[4.207711] (-) TimerEvent: {}
+[4.241627] (collaborative_gen2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[4.307883] (-) TimerEvent: {}
+[4.408158] (-) TimerEvent: {}
+[4.508414] (-) TimerEvent: {}
+[4.608709] (-) TimerEvent: {}
+[4.659599] (collaborative_gen2) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/home/jandro/workspace/ros2_kortex_ws/install/parameter_traits/share/parameter_traits/cmake)\n'}
+[4.708795] (-) TimerEvent: {}
+[4.759622] (collaborative_gen2) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[4.808888] (-) TimerEvent: {}
+[4.863675] (collaborative_gen2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem \n'}
+[4.908985] (-) TimerEvent: {}
+[5.009290] (-) TimerEvent: {}
+[5.086338] (collaborative_gen2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.086533] (collaborative_gen2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.109405] (-) TimerEvent: {}
+[5.209697] (-) TimerEvent: {}
+[5.310548] (-) TimerEvent: {}
+[5.410805] (-) TimerEvent: {}
+[5.511032] (-) TimerEvent: {}
+[5.611341] (-) TimerEvent: {}
+[5.659190] (collaborative_gen2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono \n'}
+[5.711458] (-) TimerEvent: {}
+[5.748537] (collaborative_gen2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options \n'}
+[5.811506] (-) TimerEvent: {}
+[5.816675] (collaborative_gen2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread \n'}
+[5.911626] (-) TimerEvent: {}
+[6.011889] (-) TimerEvent: {}
+[6.012137] (collaborative_gen2) StdoutLine: {'line': b'-- Configuring done (6.0s)\n'}
+[6.111976] (-) TimerEvent: {}
+[6.161841] (collaborative_gen2) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.170810] (collaborative_gen2) StdoutLine: {'line': b'-- Build files have been written to: /home/jandro/ros2_gen2_ws/build/collaborative_gen2\n'}
+[6.188771] (collaborative_gen2) CommandEnded: {'returncode': 0}
+[6.189255] (collaborative_gen2) JobProgress: {'identifier': 'collaborative_gen2', 'progress': 'build'}
+[6.189911] (collaborative_gen2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', '--', '-j4', '-l4'], 'cwd': '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim_demos/share', 'USER': 'jandro', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/velocity_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_steering_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/transmission_interface/lib:/home/jandro/workspace/ros2_kortex_ws/install/bicycle_steering_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/ackermann_steering_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/steering_controllers_library/lib:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_driver/lib:/home/jandro/workspace/ros2_kortex_ws/install/serial/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_test_assets/lib:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control/lib:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/range_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/position_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/pose_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/pid_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/picknik_twist_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/picknik_reset_fault_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/parallel_gripper_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/omni_wheel_drive_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/joint_trajectory_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/joint_state_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/imu_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/gripper_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/gps_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/gpio_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example_external/lib:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example/lib:/home/jandro/workspace/ros2_kortex_ws/install/effort_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/forward_command_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/force_torque_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/diff_drive_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager/lib:/home/jandro/workspace/ros2_kortex_ws/install/admittance_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/control_toolbox/lib:/home/jandro/workspace/ros2_kortex_ws/install/parameter_traits/lib:/home/jandro/workspace/ros2_kortex_ws/install/mecanum_drive_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/kortex_driver/lib:/home/jandro/workspace/ros2_kortex_ws/install/chained_filter_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/controller_interface/lib:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface/lib:/home/jandro/workspace/ros2_kortex_ws/install/joint_limits/lib:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jandro', 'OLDPWD': '/home/jandro/ros2_gen2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3345', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/jandro/workspace/ros2_kortex_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jandro', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jandro', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jandrox:@/tmp/.ICE-unix/3302,unix/jandrox:/tmp/.ICE-unix/3302', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c70c0999_fc76_4da0_bdcd_88390c8ec1a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.155', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/kortex_bringup:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_lite_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kortex_description:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_description:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_demos:/home/jandro/workspace/ros2_kortex_ws/install/velocity_controllers:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_controller:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/transmission_interface:/home/jandro/workspace/ros2_kortex_ws/install/test_ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/bicycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/ackermann_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/steering_controllers_library:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_hardware_tests:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_driver:/home/jandro/workspace/ros2_kortex_ws/install/serial:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim_demos:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_image:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_cmake:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_controllers:/home/jandro/workspace/ros2_kortex_ws/install/range_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/position_controllers:/home/jandro/workspace/ros2_kortex_ws/install/pose_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/pid_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_twist_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_reset_fault_controller:/home/jandro/workspace/ros2_kortex_ws/install/parallel_gripper_controller:/home/jandro/workspace/ros2_kortex_ws/install/omni_wheel_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_state_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/imu_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gripper_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gps_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gpio_controllers:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example_external:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example:/home/jandro/workspace/ros2_kortex_ws/install/effort_controllers:/home/jandro/workspace/ros2_kortex_ws/install/forward_command_controller:/home/jandro/workspace/ros2_kortex_ws/install/force_torque_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/diff_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/admittance_controller:/home/jandro/workspace/ros2_kortex_ws/install/control_toolbox:/home/jandro/workspace/ros2_kortex_ws/install/cmake_generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library:/home/jandro/workspace/ros2_kortex_ws/install/parameter_traits:/home/jandro/workspace/ros2_kortex_ws/install/mecanum_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/kortex_driver:/home/jandro/workspace/ros2_kortex_ws/install/kortex_api:/home/jandro/workspace/ros2_kortex_ws/install/chained_filter_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_interface:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface:/home/jandro/workspace/ros2_kortex_ws/install/joint_limits:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_tests:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/kortex_bringup:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_lite_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kortex_description:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_description:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_demos:/home/jandro/workspace/ros2_kortex_ws/install/velocity_controllers:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_controller:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/transmission_interface:/home/jandro/workspace/ros2_kortex_ws/install/test_ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/bicycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/ackermann_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/steering_controllers_library:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_hardware_tests:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_driver:/home/jandro/workspace/ros2_kortex_ws/install/serial:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim_demos:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_image:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_cmake:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_controllers:/home/jandro/workspace/ros2_kortex_ws/install/range_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/position_controllers:/home/jandro/workspace/ros2_kortex_ws/install/pose_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/pid_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_twist_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_reset_fault_controller:/home/jandro/workspace/ros2_kortex_ws/install/parallel_gripper_controller:/home/jandro/workspace/ros2_kortex_ws/install/omni_wheel_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_state_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/imu_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gripper_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gps_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gpio_controllers:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example_external:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example:/home/jandro/workspace/ros2_kortex_ws/install/effort_controllers:/home/jandro/workspace/ros2_kortex_ws/install/forward_command_controller:/home/jandro/workspace/ros2_kortex_ws/install/force_torque_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/diff_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/admittance_controller:/home/jandro/workspace/ros2_kortex_ws/install/control_toolbox:/home/jandro/workspace/ros2_kortex_ws/install/cmake_generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library:/home/jandro/workspace/ros2_kortex_ws/install/parameter_traits:/home/jandro/workspace/ros2_kortex_ws/install/mecanum_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/kortex_driver:/home/jandro/workspace/ros2_kortex_ws/install/kortex_api:/home/jandro/workspace/ros2_kortex_ws/install/chained_filter_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_interface:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface:/home/jandro/workspace/ros2_kortex_ws/install/joint_limits:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_tests:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/opt/ros/jazzy'}), 'shell': False}
+[6.212064] (-) TimerEvent: {}
+[6.274319] (collaborative_gen2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server_node.dir/src/central_server.cpp.o\x1b[0m\n'}
+[6.274535] (collaborative_gen2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client_a.dir/src/client_pos.cpp.o\x1b[0m\n'}
+[6.274619] (collaborative_gen2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client_b.dir/src/client_orient.cpp.o\x1b[0m\n'}
+[6.312151] (-) TimerEvent: {}
+[6.412382] (-) TimerEvent: {}
+[6.513938] (-) TimerEvent: {}
+[6.614366] (-) TimerEvent: {}
+[6.715243] (-) TimerEvent: {}
+[6.815613] (-) TimerEvent: {}
+[6.915940] (-) TimerEvent: {}
+[7.016210] (-) TimerEvent: {}
+[7.116501] (-) TimerEvent: {}
+[7.216715] (-) TimerEvent: {}
+[7.316949] (-) TimerEvent: {}
+[7.417198] (-) TimerEvent: {}
+[7.517415] (-) TimerEvent: {}
+[7.617665] (-) TimerEvent: {}
+[7.717994] (-) TimerEvent: {}
+[7.818328] (-) TimerEvent: {}
+[7.918573] (-) TimerEvent: {}
+[8.018790] (-) TimerEvent: {}
+[8.119022] (-) TimerEvent: {}
+[8.219262] (-) TimerEvent: {}
+[8.319498] (-) TimerEvent: {}
+[8.419759] (-) TimerEvent: {}
+[8.521044] (-) TimerEvent: {}
+[8.621289] (-) TimerEvent: {}
+[8.721600] (-) TimerEvent: {}
+[8.821831] (-) TimerEvent: {}
+[8.922131] (-) TimerEvent: {}
+[9.023250] (-) TimerEvent: {}
+[9.123715] (-) TimerEvent: {}
+[9.225186] (-) TimerEvent: {}
+[9.325477] (-) TimerEvent: {}
+[9.425754] (-) TimerEvent: {}
+[9.526934] (-) TimerEvent: {}
+[9.628376] (-) TimerEvent: {}
+[9.728647] (-) TimerEvent: {}
+[9.828928] (-) TimerEvent: {}
+[9.929315] (-) TimerEvent: {}
+[10.031158] (-) TimerEvent: {}
+[10.132673] (-) TimerEvent: {}
+[10.232977] (-) TimerEvent: {}
+[10.334414] (-) TimerEvent: {}
+[10.434774] (-) TimerEvent: {}
+[10.535023] (-) TimerEvent: {}
+[10.635251] (-) TimerEvent: {}
+[10.735581] (-) TimerEvent: {}
+[10.835819] (-) TimerEvent: {}
+[10.942134] (-) TimerEvent: {}
+[11.045399] (-) TimerEvent: {}
+[11.148249] (-) TimerEvent: {}
+[11.248931] (-) TimerEvent: {}
+[11.349382] (-) TimerEvent: {}
+[11.450220] (-) TimerEvent: {}
+[11.552056] (-) TimerEvent: {}
+[11.652585] (-) TimerEvent: {}
+[11.752958] (-) TimerEvent: {}
+[11.853384] (-) TimerEvent: {}
+[11.953765] (-) TimerEvent: {}
+[12.054024] (-) TimerEvent: {}
+[12.154330] (-) TimerEvent: {}
+[12.254607] (-) TimerEvent: {}
+[12.354836] (-) TimerEvent: {}
+[12.455139] (-) TimerEvent: {}
+[12.555376] (-) TimerEvent: {}
+[12.655640] (-) TimerEvent: {}
+[12.755889] (-) TimerEvent: {}
+[12.856800] (-) TimerEvent: {}
+[12.957582] (-) TimerEvent: {}
+[13.057952] (-) TimerEvent: {}
+[13.159062] (-) TimerEvent: {}
+[13.260005] (-) TimerEvent: {}
+[13.360952] (-) TimerEvent: {}
+[13.461234] (-) TimerEvent: {}
+[13.561464] (-) TimerEvent: {}
+[13.661781] (-) TimerEvent: {}
+[13.762013] (-) TimerEvent: {}
+[13.862266] (-) TimerEvent: {}
+[13.963017] (-) TimerEvent: {}
+[14.063242] (-) TimerEvent: {}
+[14.163589] (-) TimerEvent: {}
+[14.265563] (-) TimerEvent: {}
+[14.365904] (-) TimerEvent: {}
+[14.466128] (-) TimerEvent: {}
+[14.566368] (-) TimerEvent: {}
+[14.666660] (-) TimerEvent: {}
+[14.766875] (-) TimerEvent: {}
+[14.867098] (-) TimerEvent: {}
+[14.967381] (-) TimerEvent: {}
+[15.067618] (-) TimerEvent: {}
+[15.167871] (-) TimerEvent: {}
+[15.268146] (-) TimerEvent: {}
+[15.368439] (-) TimerEvent: {}
+[15.469354] (-) TimerEvent: {}
+[15.569677] (-) TimerEvent: {}
+[15.669955] (-) TimerEvent: {}
+[15.770909] (-) TimerEvent: {}
+[15.871901] (-) TimerEvent: {}
+[15.972324] (-) TimerEvent: {}
+[16.072654] (-) TimerEvent: {}
+[16.172910] (-) TimerEvent: {}
+[16.273131] (-) TimerEvent: {}
+[16.373413] (-) TimerEvent: {}
+[16.474194] (-) TimerEvent: {}
+[16.574476] (-) TimerEvent: {}
+[16.674749] (-) TimerEvent: {}
+[16.775106] (-) TimerEvent: {}
+[16.876253] (-) TimerEvent: {}
+[16.978967] (-) TimerEvent: {}
+[17.079302] (-) TimerEvent: {}
+[17.179517] (-) TimerEvent: {}
+[17.279809] (-) TimerEvent: {}
+[17.380030] (-) TimerEvent: {}
+[17.480732] (-) TimerEvent: {}
+[17.580995] (-) TimerEvent: {}
+[17.681228] (-) TimerEvent: {}
+[17.781526] (-) TimerEvent: {}
+[17.881735] (-) TimerEvent: {}
+[17.981946] (-) TimerEvent: {}
+[18.082159] (-) TimerEvent: {}
+[18.182415] (-) TimerEvent: {}
+[18.282636] (-) TimerEvent: {}
+[18.383337] (-) TimerEvent: {}
+[18.483610] (-) TimerEvent: {}
+[18.583852] (-) TimerEvent: {}
+[18.628275] (collaborative_gen2) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable client_a\x1b[0m\n'}
+[18.716388] (-) TimerEvent: {}
+[18.816630] (-) TimerEvent: {}
+[18.821385] (collaborative_gen2) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable client_b\x1b[0m\n'}
+[18.916736] (-) TimerEvent: {}
+[19.017008] (-) TimerEvent: {}
+[19.117254] (-) TimerEvent: {}
+[19.217519] (-) TimerEvent: {}
+[19.317832] (-) TimerEvent: {}
+[19.418066] (-) TimerEvent: {}
+[19.518353] (-) TimerEvent: {}
+[19.618689] (-) TimerEvent: {}
+[19.719075] (-) TimerEvent: {}
+[19.819877] (-) TimerEvent: {}
+[19.920145] (-) TimerEvent: {}
+[20.020459] (-) TimerEvent: {}
+[20.100161] (collaborative_gen2) StdoutLine: {'line': b'[ 83%] Built target client_a\n'}
+[20.116229] (collaborative_gen2) StdoutLine: {'line': b'[ 83%] Built target client_b\n'}
+[20.120515] (-) TimerEvent: {}
+[20.220821] (-) TimerEvent: {}
+[20.321080] (-) TimerEvent: {}
+[20.421313] (-) TimerEvent: {}
+[20.521547] (-) TimerEvent: {}
+[20.621798] (-) TimerEvent: {}
+[20.722037] (-) TimerEvent: {}
+[20.822302] (-) TimerEvent: {}
+[20.922531] (-) TimerEvent: {}
+[21.022747] (-) TimerEvent: {}
+[21.122964] (-) TimerEvent: {}
+[21.223680] (-) TimerEvent: {}
+[21.323910] (-) TimerEvent: {}
+[21.424161] (-) TimerEvent: {}
+[21.524442] (-) TimerEvent: {}
+[21.624679] (-) TimerEvent: {}
+[21.724992] (-) TimerEvent: {}
+[21.825604] (-) TimerEvent: {}
+[21.925958] (-) TimerEvent: {}
+[22.026805] (-) TimerEvent: {}
+[22.127109] (-) TimerEvent: {}
+[22.227353] (-) TimerEvent: {}
+[22.327616] (-) TimerEvent: {}
+[22.427883] (-) TimerEvent: {}
+[22.528112] (-) TimerEvent: {}
+[22.628328] (-) TimerEvent: {}
+[22.728588] (-) TimerEvent: {}
+[22.828887] (-) TimerEvent: {}
+[22.929133] (-) TimerEvent: {}
+[23.029382] (-) TimerEvent: {}
+[23.132014] (-) TimerEvent: {}
+[23.232308] (-) TimerEvent: {}
+[23.334552] (-) TimerEvent: {}
+[23.434855] (-) TimerEvent: {}
+[23.535876] (-) TimerEvent: {}
+[23.636169] (-) TimerEvent: {}
+[23.736678] (-) TimerEvent: {}
+[23.837128] (-) TimerEvent: {}
+[23.937521] (-) TimerEvent: {}
+[24.037904] (-) TimerEvent: {}
+[24.138128] (-) TimerEvent: {}
+[24.238389] (-) TimerEvent: {}
+[24.339165] (-) TimerEvent: {}
+[24.439531] (-) TimerEvent: {}
+[24.506030] (collaborative_gen2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jandro/ros2_gen2_ws/src/collaborative_gen2/src/central_server.cpp:2\x1b[m\x1b[K:\n'}
+[24.506513] (collaborative_gen2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.506831] (collaborative_gen2) StderrLine: {'line': b'   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[24.507078] (collaborative_gen2) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[24.541951] (-) TimerEvent: {}
+[24.642236] (-) TimerEvent: {}
+[24.742541] (-) TimerEvent: {}
+[24.842855] (-) TimerEvent: {}
+[24.943187] (-) TimerEvent: {}
+[25.043504] (-) TimerEvent: {}
+[25.143818] (-) TimerEvent: {}
+[25.244057] (-) TimerEvent: {}
+[25.344794] (-) TimerEvent: {}
+[25.445387] (-) TimerEvent: {}
+[25.545766] (-) TimerEvent: {}
+[25.646748] (-) TimerEvent: {}
+[25.748205] (-) TimerEvent: {}
+[25.848600] (-) TimerEvent: {}
+[25.949457] (-) TimerEvent: {}
+[26.049944] (-) TimerEvent: {}
+[26.150198] (-) TimerEvent: {}
+[26.252385] (-) TimerEvent: {}
+[26.352617] (-) TimerEvent: {}
+[26.452894] (-) TimerEvent: {}
+[26.554000] (-) TimerEvent: {}
+[26.654349] (-) TimerEvent: {}
+[26.754667] (-) TimerEvent: {}
+[26.855013] (-) TimerEvent: {}
+[26.955258] (-) TimerEvent: {}
+[27.055906] (-) TimerEvent: {}
+[27.156143] (-) TimerEvent: {}
+[27.256400] (-) TimerEvent: {}
+[27.356656] (-) TimerEvent: {}
+[27.456919] (-) TimerEvent: {}
+[27.557182] (-) TimerEvent: {}
+[27.657439] (-) TimerEvent: {}
+[27.757694] (-) TimerEvent: {}
+[27.857950] (-) TimerEvent: {}
+[27.958229] (-) TimerEvent: {}
+[28.058512] (-) TimerEvent: {}
+[28.158749] (-) TimerEvent: {}
+[28.258998] (-) TimerEvent: {}
+[28.359279] (-) TimerEvent: {}
+[28.459745] (-) TimerEvent: {}
+[28.560286] (-) TimerEvent: {}
+[28.660668] (-) TimerEvent: {}
+[28.761962] (-) TimerEvent: {}
+[28.862481] (-) TimerEvent: {}
+[28.962781] (-) TimerEvent: {}
+[29.063113] (-) TimerEvent: {}
+[29.163445] (-) TimerEvent: {}
+[29.263854] (-) TimerEvent: {}
+[29.364334] (-) TimerEvent: {}
+[29.465144] (-) TimerEvent: {}
+[29.565365] (-) TimerEvent: {}
+[29.665614] (-) TimerEvent: {}
+[29.765825] (-) TimerEvent: {}
+[29.866043] (-) TimerEvent: {}
+[29.966287] (-) TimerEvent: {}
+[30.066462] (-) TimerEvent: {}
+[30.166741] (-) TimerEvent: {}
+[30.266997] (-) TimerEvent: {}
+[30.367224] (-) TimerEvent: {}
+[30.467446] (-) TimerEvent: {}
+[30.567688] (-) TimerEvent: {}
+[30.667909] (-) TimerEvent: {}
+[30.768074] (-) TimerEvent: {}
+[30.868318] (-) TimerEvent: {}
+[30.968581] (-) TimerEvent: {}
+[31.068803] (-) TimerEvent: {}
+[31.169014] (-) TimerEvent: {}
+[31.269217] (-) TimerEvent: {}
+[31.369429] (-) TimerEvent: {}
+[31.469670] (-) TimerEvent: {}
+[31.569895] (-) TimerEvent: {}
+[31.670122] (-) TimerEvent: {}
+[31.770358] (-) TimerEvent: {}
+[31.870580] (-) TimerEvent: {}
+[31.970811] (-) TimerEvent: {}
+[32.071042] (-) TimerEvent: {}
+[32.171313] (-) TimerEvent: {}
+[32.271546] (-) TimerEvent: {}
+[32.371786] (-) TimerEvent: {}
+[32.472028] (-) TimerEvent: {}
+[32.572286] (-) TimerEvent: {}
+[32.672517] (-) TimerEvent: {}
+[32.772745] (-) TimerEvent: {}
+[32.872903] (-) TimerEvent: {}
+[32.973112] (-) TimerEvent: {}
+[33.073329] (-) TimerEvent: {}
+[33.174176] (-) TimerEvent: {}
+[33.274411] (-) TimerEvent: {}
+[33.374615] (-) TimerEvent: {}
+[33.474848] (-) TimerEvent: {}
+[33.575060] (-) TimerEvent: {}
+[33.675417] (-) TimerEvent: {}
+[33.776257] (-) TimerEvent: {}
+[33.876482] (-) TimerEvent: {}
+[33.978821] (-) TimerEvent: {}
+[34.080136] (-) TimerEvent: {}
+[34.180369] (-) TimerEvent: {}
+[34.280603] (-) TimerEvent: {}
+[34.380838] (-) TimerEvent: {}
+[34.481056] (-) TimerEvent: {}
+[34.581271] (-) TimerEvent: {}
+[34.681492] (-) TimerEvent: {}
+[34.781708] (-) TimerEvent: {}
+[34.882506] (-) TimerEvent: {}
+[34.982736] (-) TimerEvent: {}
+[35.082907] (-) TimerEvent: {}
+[35.183126] (-) TimerEvent: {}
+[35.284036] (-) TimerEvent: {}
+[35.384268] (-) TimerEvent: {}
+[35.484543] (-) TimerEvent: {}
+[35.584777] (-) TimerEvent: {}
+[35.685041] (-) TimerEvent: {}
+[35.785255] (-) TimerEvent: {}
+[35.885471] (-) TimerEvent: {}
+[35.985701] (-) TimerEvent: {}
+[36.085978] (-) TimerEvent: {}
+[36.186230] (-) TimerEvent: {}
+[36.259362] (collaborative_gen2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server_node\x1b[0m\n'}
+[36.286351] (-) TimerEvent: {}
+[36.386591] (-) TimerEvent: {}
+[36.486902] (-) TimerEvent: {}
+[36.587112] (-) TimerEvent: {}
+[36.687350] (-) TimerEvent: {}
+[36.787592] (-) TimerEvent: {}
+[36.887942] (-) TimerEvent: {}
+[36.988242] (-) TimerEvent: {}
+[37.088471] (-) TimerEvent: {}
+[37.188777] (-) TimerEvent: {}
+[37.289011] (-) TimerEvent: {}
+[37.389265] (-) TimerEvent: {}
+[37.489476] (-) TimerEvent: {}
+[37.589694] (-) TimerEvent: {}
+[37.689954] (-) TimerEvent: {}
+[37.790255] (-) TimerEvent: {}
+[37.890458] (-) TimerEvent: {}
+[37.990704] (-) TimerEvent: {}
+[38.090952] (-) TimerEvent: {}
+[38.191233] (-) TimerEvent: {}
+[38.291461] (-) TimerEvent: {}
+[38.391736] (-) TimerEvent: {}
+[38.491968] (-) TimerEvent: {}
+[38.581148] (collaborative_gen2) StdoutLine: {'line': b'[100%] Built target server_node\n'}
+[38.592069] (-) TimerEvent: {}
+[38.599348] (collaborative_gen2) CommandEnded: {'returncode': 0}
+[38.612235] (collaborative_gen2) JobProgress: {'identifier': 'collaborative_gen2', 'progress': 'install'}
+[38.613534] (collaborative_gen2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jandro/ros2_gen2_ws/build/collaborative_gen2'], 'cwd': '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim_demos/share', 'USER': 'jandro', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/velocity_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_steering_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/transmission_interface/lib:/home/jandro/workspace/ros2_kortex_ws/install/bicycle_steering_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/ackermann_steering_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/steering_controllers_library/lib:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_driver/lib:/home/jandro/workspace/ros2_kortex_ws/install/serial/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface_testing/lib:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_test_assets/lib:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control/lib:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/range_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/position_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/pose_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/pid_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/picknik_twist_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/picknik_reset_fault_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/parallel_gripper_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/omni_wheel_drive_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/joint_trajectory_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/joint_state_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/imu_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/gripper_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/gps_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/gpio_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example_external/lib:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example/lib:/home/jandro/workspace/ros2_kortex_ws/install/effort_controllers/lib:/home/jandro/workspace/ros2_kortex_ws/install/forward_command_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/force_torque_sensor_broadcaster/lib:/home/jandro/workspace/ros2_kortex_ws/install/diff_drive_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager/lib:/home/jandro/workspace/ros2_kortex_ws/install/admittance_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/control_toolbox/lib:/home/jandro/workspace/ros2_kortex_ws/install/parameter_traits/lib:/home/jandro/workspace/ros2_kortex_ws/install/mecanum_drive_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/kortex_driver/lib:/home/jandro/workspace/ros2_kortex_ws/install/chained_filter_controller/lib:/home/jandro/workspace/ros2_kortex_ws/install/controller_interface/lib:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface/lib:/home/jandro/workspace/ros2_kortex_ws/install/joint_limits/lib:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jandro', 'OLDPWD': '/home/jandro/ros2_gen2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3345', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/jandro/workspace/ros2_kortex_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jandro', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jandro', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jandrox:@/tmp/.ICE-unix/3302,unix/jandrox:/tmp/.ICE-unix/3302', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c70c0999_fc76_4da0_bdcd_88390c8ec1a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.155', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/kortex_bringup:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_lite_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kortex_description:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_description:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_demos:/home/jandro/workspace/ros2_kortex_ws/install/velocity_controllers:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_controller:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/transmission_interface:/home/jandro/workspace/ros2_kortex_ws/install/test_ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/bicycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/ackermann_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/steering_controllers_library:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_hardware_tests:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_driver:/home/jandro/workspace/ros2_kortex_ws/install/serial:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim_demos:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_image:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_cmake:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_controllers:/home/jandro/workspace/ros2_kortex_ws/install/range_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/position_controllers:/home/jandro/workspace/ros2_kortex_ws/install/pose_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/pid_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_twist_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_reset_fault_controller:/home/jandro/workspace/ros2_kortex_ws/install/parallel_gripper_controller:/home/jandro/workspace/ros2_kortex_ws/install/omni_wheel_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_state_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/imu_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gripper_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gps_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gpio_controllers:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example_external:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example:/home/jandro/workspace/ros2_kortex_ws/install/effort_controllers:/home/jandro/workspace/ros2_kortex_ws/install/forward_command_controller:/home/jandro/workspace/ros2_kortex_ws/install/force_torque_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/diff_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/admittance_controller:/home/jandro/workspace/ros2_kortex_ws/install/control_toolbox:/home/jandro/workspace/ros2_kortex_ws/install/cmake_generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library:/home/jandro/workspace/ros2_kortex_ws/install/parameter_traits:/home/jandro/workspace/ros2_kortex_ws/install/mecanum_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/kortex_driver:/home/jandro/workspace/ros2_kortex_ws/install/kortex_api:/home/jandro/workspace/ros2_kortex_ws/install/chained_filter_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_interface:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface:/home/jandro/workspace/ros2_kortex_ws/install/joint_limits:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_tests:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs/lib/python3.12/site-packages:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jandro/workspace/ros2_kortex_ws/install/kortex_bringup:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_lite_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/jandro/workspace/ros2_kortex_ws/install/kortex_description:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_description:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_demos:/home/jandro/workspace/ros2_kortex_ws/install/velocity_controllers:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/tricycle_controller:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/transmission_interface:/home/jandro/workspace/ros2_kortex_ws/install/test_ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/bicycle_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/ackermann_steering_controller:/home/jandro/workspace/ros2_kortex_ws/install/steering_controllers_library:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_hardware_tests:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_driver:/home/jandro/workspace/ros2_kortex_ws/install/serial:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim_demos:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_sim:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_image:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_bridge:/home/jandro/workspace/ros2_kortex_ws/install/ros_gz_interfaces:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface_testing:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_test_assets:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control:/home/jandro/workspace/ros2_kortex_ws/install/ros2_control_cmake:/home/jandro/workspace/ros2_kortex_ws/install/robotiq_controllers:/home/jandro/workspace/ros2_kortex_ws/install/range_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/position_controllers:/home/jandro/workspace/ros2_kortex_ws/install/pose_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/pid_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_twist_controller:/home/jandro/workspace/ros2_kortex_ws/install/picknik_reset_fault_controller:/home/jandro/workspace/ros2_kortex_ws/install/parallel_gripper_controller:/home/jandro/workspace/ros2_kortex_ws/install/omni_wheel_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/joint_state_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/imu_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gripper_controllers:/home/jandro/workspace/ros2_kortex_ws/install/gps_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/gpio_controllers:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example_external:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_example:/home/jandro/workspace/ros2_kortex_ws/install/effort_controllers:/home/jandro/workspace/ros2_kortex_ws/install/forward_command_controller:/home/jandro/workspace/ros2_kortex_ws/install/force_torque_sensor_broadcaster:/home/jandro/workspace/ros2_kortex_ws/install/diff_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/admittance_controller:/home/jandro/workspace/ros2_kortex_ws/install/control_toolbox:/home/jandro/workspace/ros2_kortex_ws/install/cmake_generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library:/home/jandro/workspace/ros2_kortex_ws/install/parameter_traits:/home/jandro/workspace/ros2_kortex_ws/install/mecanum_drive_controller:/home/jandro/workspace/ros2_kortex_ws/install/kortex_driver:/home/jandro/workspace/ros2_kortex_ws/install/kortex_api:/home/jandro/workspace/ros2_kortex_ws/install/chained_filter_controller:/home/jandro/workspace/ros2_kortex_ws/install/controller_interface:/home/jandro/workspace/ros2_kortex_ws/install/hardware_interface:/home/jandro/workspace/ros2_kortex_ws/install/joint_limits:/home/jandro/workspace/ros2_kortex_ws/install/gz_ros2_control_tests:/home/jandro/workspace/ros2_kortex_ws/install/controller_manager_msgs:/home/jandro/workspace/ros2_kortex_ws/install/control_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/opt/ros/jazzy'}), 'shell': False}
+[38.628021] (collaborative_gen2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.628244] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/server_node\n'}
+[38.633582] (collaborative_gen2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/server_node" to ""\n'}
+[38.633770] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_a\n'}
+[38.634739] (collaborative_gen2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_a" to ""\n'}
+[38.634869] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_b\n'}
+[38.636238] (collaborative_gen2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_b" to ""\n'}
+[38.636345] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/package_run_dependencies/collaborative_gen2\n'}
+[38.636514] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/parent_prefix_path/collaborative_gen2\n'}
+[38.636699] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.sh\n'}
+[38.636799] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.dsv\n'}
+[38.636897] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.sh\n'}
+[38.636993] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.dsv\n'}
+[38.637078] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.bash\n'}
+[38.637185] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.sh\n'}
+[38.637297] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.zsh\n'}
+[38.637425] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.dsv\n'}
+[38.637539] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.dsv\n'}
+[38.637669] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/packages/collaborative_gen2\n'}
+[38.637806] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config.cmake\n'}
+[38.637958] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config-version.cmake\n'}
+[38.638067] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.xml\n'}
+[38.674345] (collaborative_gen2) CommandEnded: {'returncode': 0}
+[38.692266] (-) TimerEvent: {}
+[38.701695] (collaborative_gen2) JobEnded: {'identifier': 'collaborative_gen2', 'rc': 0}
+[38.702325] (-) EventReactorShutdown: {}

@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.000555] (-) JobUnselected: {'identifier': 'gen2_moveit_config'}
+[0.000587] (-) JobUnselected: {'identifier': 'kinova_description'}
+[0.000607] (collaborative_gen2) JobQueued: {'identifier': 'collaborative_gen2', 'dependencies': OrderedDict()}
+[0.000631] (collaborative_gen2) JobStarted: {'identifier': 'collaborative_gen2'}
+[0.008993] (collaborative_gen2) JobProgress: {'identifier': 'collaborative_gen2', 'progress': 'cmake'}
+[0.031408] (collaborative_gen2) JobProgress: {'identifier': 'collaborative_gen2', 'progress': 'build'}
+[0.031450] (collaborative_gen2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', '--', '-j4', '-l4'], 'cwd': '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jandro', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/jandro', 'OLDPWD': '/home/jandro/ros2_gen2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3396', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'jandro', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jandro', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jandrox:@/tmp/.ICE-unix/3353,unix/jandrox:/tmp/.ICE-unix/3353', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a115dc6d_3e2c_4766_b226_c7a6c4f4f64d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.099838] (-) TimerEvent: {}
+[0.200075] (-) TimerEvent: {}
+[0.300324] (-) TimerEvent: {}
+[0.400632] (-) TimerEvent: {}
+[0.500940] (-) TimerEvent: {}
+[0.601236] (-) TimerEvent: {}
+[0.701526] (-) TimerEvent: {}
+[0.801815] (-) TimerEvent: {}
+[0.902104] (-) TimerEvent: {}
+[1.002504] (-) TimerEvent: {}
+[1.102899] (-) TimerEvent: {}
+[1.203103] (-) TimerEvent: {}
+[1.303391] (-) TimerEvent: {}
+[1.403696] (-) TimerEvent: {}
+[1.477355] (collaborative_gen2) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/server_node.dir/src/central_server.cpp.o\x1b[0m\n'}
+[1.503874] (-) TimerEvent: {}
+[1.604118] (-) TimerEvent: {}
+[1.616711] (collaborative_gen2) StdoutLine: {'line': b'[ 83%] Built target client_b\n'}
+[1.616903] (collaborative_gen2) StdoutLine: {'line': b'[ 83%] Built target client_a\n'}
+[1.704236] (-) TimerEvent: {}
+[1.804436] (-) TimerEvent: {}
+[1.904725] (-) TimerEvent: {}
+[2.004984] (-) TimerEvent: {}
+[2.105276] (-) TimerEvent: {}
+[2.205475] (-) TimerEvent: {}
+[2.305701] (-) TimerEvent: {}
+[2.405994] (-) TimerEvent: {}
+[2.506263] (-) TimerEvent: {}
+[2.606505] (-) TimerEvent: {}
+[2.706711] (-) TimerEvent: {}
+[2.807061] (-) TimerEvent: {}
+[2.907294] (-) TimerEvent: {}
+[3.007527] (-) TimerEvent: {}
+[3.107832] (-) TimerEvent: {}
+[3.208127] (-) TimerEvent: {}
+[3.308325] (-) TimerEvent: {}
+[3.408526] (-) TimerEvent: {}
+[3.508732] (-) TimerEvent: {}
+[3.609024] (-) TimerEvent: {}
+[3.709321] (-) TimerEvent: {}
+[3.809587] (-) TimerEvent: {}
+[3.909987] (-) TimerEvent: {}
+[4.010224] (-) TimerEvent: {}
+[4.110473] (-) TimerEvent: {}
+[4.210773] (-) TimerEvent: {}
+[4.311062] (-) TimerEvent: {}
+[4.411309] (-) TimerEvent: {}
+[4.511614] (-) TimerEvent: {}
+[4.611828] (-) TimerEvent: {}
+[4.712138] (-) TimerEvent: {}
+[4.812441] (-) TimerEvent: {}
+[4.912733] (-) TimerEvent: {}
+[5.013037] (-) TimerEvent: {}
+[5.113337] (-) TimerEvent: {}
+[5.213590] (-) TimerEvent: {}
+[5.313839] (-) TimerEvent: {}
+[5.414073] (-) TimerEvent: {}
+[5.514324] (-) TimerEvent: {}
+[5.614622] (-) TimerEvent: {}
+[5.714918] (-) TimerEvent: {}
+[5.815246] (-) TimerEvent: {}
+[5.915490] (-) TimerEvent: {}
+[6.015785] (-) TimerEvent: {}
+[6.115983] (-) TimerEvent: {}
+[6.216263] (-) TimerEvent: {}
+[6.316563] (-) TimerEvent: {}
+[6.416865] (-) TimerEvent: {}
+[6.517161] (-) TimerEvent: {}
+[6.617470] (-) TimerEvent: {}
+[6.717775] (-) TimerEvent: {}
+[6.818019] (-) TimerEvent: {}
+[6.918266] (-) TimerEvent: {}
+[7.018504] (-) TimerEvent: {}
+[7.118744] (-) TimerEvent: {}
+[7.219033] (-) TimerEvent: {}
+[7.319345] (-) TimerEvent: {}
+[7.419593] (-) TimerEvent: {}
+[7.519855] (-) TimerEvent: {}
+[7.620103] (-) TimerEvent: {}
+[7.720334] (-) TimerEvent: {}
+[7.820598] (-) TimerEvent: {}
+[7.920858] (-) TimerEvent: {}
+[8.021108] (-) TimerEvent: {}
+[8.121372] (-) TimerEvent: {}
+[8.221649] (-) TimerEvent: {}
+[8.321948] (-) TimerEvent: {}
+[8.401058] (collaborative_gen2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jandro/ros2_gen2_ws/src/collaborative_gen2/src/central_server.cpp:2\x1b[m\x1b[K:\n'}
+[8.401247] (collaborative_gen2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.401321] (collaborative_gen2) StderrLine: {'line': b'   51 | a message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[8.401381] (collaborative_gen2) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.401444] (collaborative_gen2) StderrLine: {'line': b'\n'}
+[8.422051] (-) TimerEvent: {}
+[8.522273] (-) TimerEvent: {}
+[8.622534] (-) TimerEvent: {}
+[8.722779] (-) TimerEvent: {}
+[8.823025] (-) TimerEvent: {}
+[8.923366] (-) TimerEvent: {}
+[9.023667] (-) TimerEvent: {}
+[9.123904] (-) TimerEvent: {}
+[9.224149] (-) TimerEvent: {}
+[9.324403] (-) TimerEvent: {}
+[9.424662] (-) TimerEvent: {}
+[9.524916] (-) TimerEvent: {}
+[9.625176] (-) TimerEvent: {}
+[9.725536] (-) TimerEvent: {}
+[9.825828] (-) TimerEvent: {}
+[9.926080] (-) TimerEvent: {}
+[10.026288] (-) TimerEvent: {}
+[10.126553] (-) TimerEvent: {}
+[10.226814] (-) TimerEvent: {}
+[10.327067] (-) TimerEvent: {}
+[10.427319] (-) TimerEvent: {}
+[10.527562] (-) TimerEvent: {}
+[10.627840] (-) TimerEvent: {}
+[10.728120] (-) TimerEvent: {}
+[10.828430] (-) TimerEvent: {}
+[10.928692] (-) TimerEvent: {}
+[11.028938] (-) TimerEvent: {}
+[11.129200] (-) TimerEvent: {}
+[11.229462] (-) TimerEvent: {}
+[11.329713] (-) TimerEvent: {}
+[11.429964] (-) TimerEvent: {}
+[11.530759] (-) TimerEvent: {}
+[11.631040] (-) TimerEvent: {}
+[11.731233] (-) TimerEvent: {}
+[11.831510] (-) TimerEvent: {}
+[11.931734] (-) TimerEvent: {}
+[12.031981] (-) TimerEvent: {}
+[12.132473] (-) TimerEvent: {}
+[12.232731] (-) TimerEvent: {}
+[12.332967] (-) TimerEvent: {}
+[12.433232] (-) TimerEvent: {}
+[12.533482] (-) TimerEvent: {}
+[12.634559] (-) TimerEvent: {}
+[12.734806] (-) TimerEvent: {}
+[12.835057] (-) TimerEvent: {}
+[12.935270] (-) TimerEvent: {}
+[13.035520] (-) TimerEvent: {}
+[13.135796] (-) TimerEvent: {}
+[13.236082] (-) TimerEvent: {}
+[13.336274] (-) TimerEvent: {}
+[13.436521] (-) TimerEvent: {}
+[13.536772] (-) TimerEvent: {}
+[13.637026] (-) TimerEvent: {}
+[13.737293] (-) TimerEvent: {}
+[13.837563] (-) TimerEvent: {}
+[13.937889] (-) TimerEvent: {}
+[14.038210] (-) TimerEvent: {}
+[14.138425] (-) TimerEvent: {}
+[14.238636] (-) TimerEvent: {}
+[14.338902] (-) TimerEvent: {}
+[14.439149] (-) TimerEvent: {}
+[14.539331] (-) TimerEvent: {}
+[14.639624] (-) TimerEvent: {}
+[14.739861] (-) TimerEvent: {}
+[14.840145] (-) TimerEvent: {}
+[14.940464] (-) TimerEvent: {}
+[15.040703] (-) TimerEvent: {}
+[15.140971] (-) TimerEvent: {}
+[15.241299] (-) TimerEvent: {}
+[15.341533] (-) TimerEvent: {}
+[15.441783] (-) TimerEvent: {}
+[15.542050] (-) TimerEvent: {}
+[15.642271] (-) TimerEvent: {}
+[15.742504] (-) TimerEvent: {}
+[15.842743] (-) TimerEvent: {}
+[15.942979] (-) TimerEvent: {}
+[16.043229] (-) TimerEvent: {}
+[16.143471] (-) TimerEvent: {}
+[16.243752] (-) TimerEvent: {}
+[16.344775] (-) TimerEvent: {}
+[16.446445] (-) TimerEvent: {}
+[16.546706] (-) TimerEvent: {}
+[16.646988] (-) TimerEvent: {}
+[16.747280] (-) TimerEvent: {}
+[16.847526] (-) TimerEvent: {}
+[16.947772] (-) TimerEvent: {}
+[17.048110] (-) TimerEvent: {}
+[17.148375] (-) TimerEvent: {}
+[17.248640] (-) TimerEvent: {}
+[17.349144] (-) TimerEvent: {}
+[17.449357] (-) TimerEvent: {}
+[17.549589] (-) TimerEvent: {}
+[17.649857] (-) TimerEvent: {}
+[17.750063] (-) TimerEvent: {}
+[17.850249] (-) TimerEvent: {}
+[17.950487] (-) TimerEvent: {}
+[18.050707] (-) TimerEvent: {}
+[18.150935] (-) TimerEvent: {}
+[18.251184] (-) TimerEvent: {}
+[18.351398] (-) TimerEvent: {}
+[18.451658] (-) TimerEvent: {}
+[18.551906] (-) TimerEvent: {}
+[18.652132] (-) TimerEvent: {}
+[18.752347] (-) TimerEvent: {}
+[18.852642] (-) TimerEvent: {}
+[18.952939] (-) TimerEvent: {}
+[19.053179] (-) TimerEvent: {}
+[19.153407] (-) TimerEvent: {}
+[19.253642] (-) TimerEvent: {}
+[19.353879] (-) TimerEvent: {}
+[19.454137] (-) TimerEvent: {}
+[19.554399] (-) TimerEvent: {}
+[19.654652] (-) TimerEvent: {}
+[19.700801] (collaborative_gen2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server_node\x1b[0m\n'}
+[19.754833] (-) TimerEvent: {}
+[19.855070] (-) TimerEvent: {}
+[19.956034] (-) TimerEvent: {}
+[20.056348] (-) TimerEvent: {}
+[20.156645] (-) TimerEvent: {}
+[20.256887] (-) TimerEvent: {}
+[20.357231] (-) TimerEvent: {}
+[20.457435] (-) TimerEvent: {}
+[20.557737] (-) TimerEvent: {}
+[20.657975] (-) TimerEvent: {}
+[20.758247] (-) TimerEvent: {}
+[20.858458] (-) TimerEvent: {}
+[20.958757] (-) TimerEvent: {}
+[21.059057] (-) TimerEvent: {}
+[21.159334] (-) TimerEvent: {}
+[21.259632] (-) TimerEvent: {}
+[21.359876] (-) TimerEvent: {}
+[21.460122] (-) TimerEvent: {}
+[21.560341] (-) TimerEvent: {}
+[21.660630] (-) TimerEvent: {}
+[21.760922] (-) TimerEvent: {}
+[21.861167] (-) TimerEvent: {}
+[21.961551] (-) TimerEvent: {}
+[22.062022] (-) TimerEvent: {}
+[22.162252] (-) TimerEvent: {}
+[22.262489] (-) TimerEvent: {}
+[22.362715] (-) TimerEvent: {}
+[22.462960] (-) TimerEvent: {}
+[22.563196] (-) TimerEvent: {}
+[22.663467] (-) TimerEvent: {}
+[22.763813] (-) TimerEvent: {}
+[22.864057] (-) TimerEvent: {}
+[22.964330] (-) TimerEvent: {}
+[23.064659] (-) TimerEvent: {}
+[23.164908] (-) TimerEvent: {}
+[23.265147] (-) TimerEvent: {}
+[23.366012] (-) TimerEvent: {}
+[23.466221] (-) TimerEvent: {}
+[23.566425] (-) TimerEvent: {}
+[23.666661] (-) TimerEvent: {}
+[23.766914] (-) TimerEvent: {}
+[23.867180] (-) TimerEvent: {}
+[23.929791] (collaborative_gen2) StdoutLine: {'line': b'[100%] Built target server_node\n'}
+[23.939779] (collaborative_gen2) CommandEnded: {'returncode': 0}
+[23.967332] (-) TimerEvent: {}
+[23.982194] (collaborative_gen2) JobProgress: {'identifier': 'collaborative_gen2', 'progress': 'install'}
+[24.010532] (collaborative_gen2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jandro/ros2_gen2_ws/build/collaborative_gen2'], 'cwd': '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jandro', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/jandro', 'OLDPWD': '/home/jandro/ros2_gen2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3396', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'jandro', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jandro', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jandrox:@/tmp/.ICE-unix/3353,unix/jandrox:/tmp/.ICE-unix/3353', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a115dc6d_3e2c_4766_b226_c7a6c4f4f64d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jandro/ros2_gen2_ws/build/collaborative_gen2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[24.025150] (collaborative_gen2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.067425] (-) TimerEvent: {}
+[24.112951] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/server_node\n'}
+[24.118402] (collaborative_gen2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/server_node" to ""\n'}
+[24.146605] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_a\n'}
+[24.167600] (-) TimerEvent: {}
+[24.198164] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_b\n'}
+[24.204344] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/package_run_dependencies/collaborative_gen2\n'}
+[24.204573] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/parent_prefix_path/collaborative_gen2\n'}
+[24.205018] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.sh\n'}
+[24.205114] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.dsv\n'}
+[24.205253] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.sh\n'}
+[24.205379] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.dsv\n'}
+[24.205448] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.bash\n'}
+[24.205510] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.sh\n'}
+[24.205571] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.zsh\n'}
+[24.205630] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.dsv\n'}
+[24.205689] (collaborative_gen2) StdoutLine: {'line': b'-- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.dsv\n'}
+[24.227435] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/packages/collaborative_gen2\n'}
+[24.227685] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config.cmake\n'}
+[24.227839] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config-version.cmake\n'}
+[24.227929] (collaborative_gen2) StdoutLine: {'line': b'-- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.xml\n'}
+[24.229555] (collaborative_gen2) CommandEnded: {'returncode': 0}
+[24.267780] (-) TimerEvent: {}
+[24.368063] (-) TimerEvent: {}
+[24.440018] (collaborative_gen2) JobEnded: {'identifier': 'collaborative_gen2', 'rc': 0}
+[24.440686] (-) EventReactorShutdown: {}

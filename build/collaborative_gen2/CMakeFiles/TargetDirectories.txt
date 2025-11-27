@@ -1,0 +1,12 @@
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/uninstall.dir
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/collaborative_gen2_uninstall.dir
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/server_node.dir
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/client_a.dir
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/client_b.dir
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/test.dir
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/edit_cache.dir
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/rebuild_cache.dir
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/list_install_components.dir
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/install.dir
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/install/local.dir
+/home/jandro/ros2_gen2_ws/build/collaborative_gen2/CMakeFiles/install/strip.dir

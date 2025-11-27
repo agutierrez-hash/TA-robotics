@@ -1,0 +1,9 @@
+/home/jandro/ros2_gen2_ws/build/kinova_description/CMakeFiles/uninstall.dir
+/home/jandro/ros2_gen2_ws/build/kinova_description/CMakeFiles/kinova_description_uninstall.dir
+/home/jandro/ros2_gen2_ws/build/kinova_description/CMakeFiles/test.dir
+/home/jandro/ros2_gen2_ws/build/kinova_description/CMakeFiles/edit_cache.dir
+/home/jandro/ros2_gen2_ws/build/kinova_description/CMakeFiles/rebuild_cache.dir
+/home/jandro/ros2_gen2_ws/build/kinova_description/CMakeFiles/list_install_components.dir
+/home/jandro/ros2_gen2_ws/build/kinova_description/CMakeFiles/install.dir
+/home/jandro/ros2_gen2_ws/build/kinova_description/CMakeFiles/install/local.dir
+/home/jandro/ros2_gen2_ws/build/kinova_description/CMakeFiles/install/strip.dir
