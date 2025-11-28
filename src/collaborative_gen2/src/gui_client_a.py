@@ -9,46 +9,74 @@ class ClientAGUI(Node):
     def __init__(self):
         super().__init__('gui_client_a')
         self.publisher_ = self.create_publisher(Twist, '/collaborative/position_cmd', 10)
+        
+        # Estado actual del comando
+        self.current_cmd = Twist()
+        self.sending = False
+
+        # Configurar Ventana
         self.root = tk.Tk()
         self.root.title("Usuario A - Posición (XYZ)")
-        self.root.geometry("300x400")
+        self.root.geometry("350x450")
         
         self.create_widgets()
-        self.update_ros() # Loop de ROS dentro de Tkinter
+        self.update_ros() # Loop principal
 
     def create_widgets(self):
-        ttk.Label(self.root, text="Control de Posición", font=("Arial", 14)).pack(pady=10)
+        ttk.Label(self.root, text="MANTENGA PRESIONADO PARA MOVER", font=("Arial", 10, "bold")).pack(pady=10)
         
-        # Botones X
-        frame_x = ttk.LabelFrame(self.root, text="Eje X (Adelante/Atras)")
-        frame_x.pack(fill="x", padx=10, pady=5)
-        ttk.Button(frame_x, text="Adelante (+X)", command=lambda: self.send_cmd(x=1.0)).pack(side="left", expand=True)
-        ttk.Button(frame_x, text="Atrás (-X)", command=lambda: self.send_cmd(x=-1.0)).pack(side="left", expand=True)
+        # --- EJE X ---
+        fx = ttk.LabelFrame(self.root, text="Eje X (Adelante/Atras)")
+        fx.pack(fill="x", padx=10, pady=5)
+        self.make_button(fx, "Adelante (W)", 1.0, 'x')
+        self.make_button(fx, "Atrás (S)", -1.0, 'x')
 
-        # Botones Y
-        frame_y = ttk.LabelFrame(self.root, text="Eje Y (Izq/Der)")
-        frame_y.pack(fill="x", padx=10, pady=5)
-        ttk.Button(frame_y, text="Izquierda (+Y)", command=lambda: self.send_cmd(y=1.0)).pack(side="left", expand=True)
-        ttk.Button(frame_y, text="Derecha (-Y)", command=lambda: self.send_cmd(y=-1.0)).pack(side="left", expand=True)
+        # --- EJE Y ---
+        fy = ttk.LabelFrame(self.root, text="Eje Y (Izq/Der)")
+        fy.pack(fill="x", padx=10, pady=5)
+        self.make_button(fy, "Izquierda (A)", 1.0, 'y')
+        self.make_button(fy, "Derecha (D)", -1.0, 'y')
 
-        # Botones Z
-        frame_z = ttk.LabelFrame(self.root, text="Eje Z (Arriba/Abajo)")
-        frame_z.pack(fill="x", padx=10, pady=5)
-        ttk.Button(frame_z, text="Subir (+Z)", command=lambda: self.send_cmd(z=1.0)).pack(side="left", expand=True)
-        ttk.Button(frame_z, text="Bajar (-Z)", command=lambda: self.send_cmd(z=-1.0)).pack(side="left", expand=True)
+        # --- EJE Z ---
+        fz = ttk.LabelFrame(self.root, text="Eje Z (Arriba/Abajo)")
+        fz.pack(fill="x", padx=10, pady=5)
+        self.make_button(fz, "Subir (Q)", 1.0, 'z')
+        self.make_button(fz, "Bajar (E)", -1.0, 'z')
 
-        ttk.Button(self.root, text="DETENER", command=lambda: self.send_cmd()).pack(pady=20, fill="x")
+        # Status
+        self.lbl_status = ttk.Label(self.root, text="Estado: Detenido", foreground="red")
+        self.lbl_status.pack(pady=20)
 
-    def send_cmd(self, x=0.0, y=0.0, z=0.0):
-        msg = Twist()
-        msg.linear.x = x
-        msg.linear.y = y
-        msg.linear.z = z
-        self.publisher_.publish(msg)
+    def make_button(self, parent, text, val, axis):
+        btn = ttk.Button(parent, text=text)
+        btn.pack(side="left", expand=True, padx=5, pady=5)
+        # Eventos: Al presionar y al soltar
+        btn.bind('<ButtonPress-1>', lambda event: self.start_move(val, axis))
+        btn.bind('<ButtonRelease-1>', lambda event: self.stop_move())
+        return btn
+
+    def start_move(self, val, axis):
+        self.current_cmd = Twist() # Reiniciar
+        if axis == 'x': self.current_cmd.linear.x = val
+        elif axis == 'y': self.current_cmd.linear.y = val
+        elif axis == 'z': self.current_cmd.linear.z = val
+        
+        self.sending = True
+        self.lbl_status.config(text=f"Moviendo en {axis.upper()}...", foreground="green")
+
+    def stop_move(self):
+        self.sending = False
+        self.current_cmd = Twist() # Todo a 0
+        self.publisher_.publish(self.current_cmd) # Enviar parada inmediata
+        self.lbl_status.config(text="Estado: Detenido", foreground="red")
 
     def update_ros(self):
+        # Si el boton esta presionado, enviamos comando continuamente
+        if self.sending:
+            self.publisher_.publish(self.current_cmd)
+        
         rclpy.spin_once(self, timeout_sec=0.01)
-        self.root.after(10, self.update_ros)
+        self.root.after(50, self.update_ros) # 20Hz refresco
 
 def main():
     rclpy.init()

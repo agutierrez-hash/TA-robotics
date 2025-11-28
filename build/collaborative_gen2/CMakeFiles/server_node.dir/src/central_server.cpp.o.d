@@ -694,12 +694,6 @@ CMakeFiles/server_node.dir/src/central_server.cpp.o: \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/bool.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/bool__builder.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/bool__traits.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/bool__type_support.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp \
  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
