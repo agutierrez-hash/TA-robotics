@@ -1,0 +1,31 @@
+[0.030s] Invoking command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jandro/ros2_gen2_ws/build/collaborative_gen2 -- -j4 -l4
+[0.117s] [ 33%] Built target client_a
+[0.123s] [ 66%] Built target client_b
+[0.136s] [ 83%] [32mBuilding CXX object CMakeFiles/server_node.dir/src/central_server.cpp.o[0m
+[12.457s] [100%] [32m[1mLinking CXX executable server_node[0m
+[13.540s] [100%] Built target server_node
+[13.555s] Invoked command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jandro/ros2_gen2_ws/build/collaborative_gen2 -- -j4 -l4
+[13.556s] Invoking command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jandro/ros2_gen2_ws/build/collaborative_gen2
+[13.569s] -- Install configuration: ""
+[13.569s] -- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/server_node
+[13.579s] -- Set non-toolchain portion of runtime path of "/home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/server_node" to ""
+[13.579s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_a
+[13.579s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/lib/collaborative_gen2/client_b
+[13.579s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/launch
+[13.580s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/launch/server.launch.py
+[13.580s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/package_run_dependencies/collaborative_gen2
+[13.580s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/parent_prefix_path/collaborative_gen2
+[13.580s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.sh
+[13.580s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/ament_prefix_path.dsv
+[13.580s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.sh
+[13.580s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/environment/path.dsv
+[13.580s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.bash
+[13.580s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.sh
+[13.580s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.zsh
+[13.580s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/local_setup.dsv
+[13.581s] -- Installing: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.dsv
+[13.581s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/ament_index/resource_index/packages/collaborative_gen2
+[13.581s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config.cmake
+[13.581s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/cmake/collaborative_gen2Config-version.cmake
+[13.581s] -- Up-to-date: /home/jandro/ros2_gen2_ws/install/collaborative_gen2/share/collaborative_gen2/package.xml
+[13.582s] Invoked command in '/home/jandro/ros2_gen2_ws/build/collaborative_gen2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jandro/workspace/ros2_kortex_ws/install/rqt_joint_trajectory_controller:/home/jandro/workspace/ros2_kortex_ws/install/rqt_controller_manager:/home/jandro/workspace/ros2_kortex_ws/install/ros2controlcli:/home/jandro/workspace/ros2_kortex_ws/install/ros2_controllers_test_nodes:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_module_example:/home/jandro/workspace/ros2_kortex_ws/install/generate_parameter_library_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jandro/ros2_gen2_ws/build/collaborative_gen2

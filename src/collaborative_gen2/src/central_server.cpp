@@ -103,7 +103,7 @@ private:
             };
             
             trajectory_msgs::msg::JointTrajectoryPoint point;
-            double val = msg->data ? 1.3 : 0.0; // 1.3 es un buen valor de cierre
+            double val = msg->data ? 1.0 : 0.0; // 1.3 es un buen valor de cierre
             
             point.positions = {val, val, val}; 
             point.time_from_start.sec = 1;
@@ -111,7 +111,7 @@ private:
             traj.points.push_back(point);
             pub_grip_->publish(traj);
             RCLCPP_INFO(this->get_logger(), "Comando Gripper (Bases) Enviado");
-    }
+        }
 
     void send_arm_command(const std::vector<double>& joints) {
         trajectory_msgs::msg::JointTrajectory traj;

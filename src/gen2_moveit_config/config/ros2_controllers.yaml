@@ -30,7 +30,6 @@ arm_controller:
 gripper_controller:
   ros__parameters:
     joints:
-      # SOLO LAS BASES
       - j2n6s300_joint_finger_1
       - j2n6s300_joint_finger_2
       - j2n6s300_joint_finger_3
@@ -41,7 +40,6 @@ gripper_controller:
       - velocity
     allow_nonzero_velocity_at_trajectory_end: true
     gains:
-      # MUCHA FUERZA (P=500)
-      j2n6s300_joint_finger_1: {p: 500.0, i: 0.0, d: 1.0}
-      j2n6s300_joint_finger_2: {p: 500.0, i: 0.0, d: 1.0}
-      j2n6s300_joint_finger_3: {p: 500.0, i: 0.0, d: 1.0}
+      j2n6s300_joint_finger_1: {p: 100.0, i: 0.0, d: 1.0}
+      j2n6s300_joint_finger_2: {p: 100.0, i: 0.0, d: 1.0}
+      j2n6s300_joint_finger_3: {p: 100.0, i: 0.0, d: 1.0}
